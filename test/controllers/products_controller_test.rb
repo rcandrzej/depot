@@ -52,4 +52,14 @@ class ProductsControllerTest < ActionController::TestCase
 
     assert_redirected_to products_path
   end
+
 end
+
+
+
+
+
+
+
+
+
