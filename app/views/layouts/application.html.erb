@@ -19,6 +19,9 @@
 				<li><a href="http://.../news">News</a></li>
 				<li><a href="http://.../contact">Contact</a></li>
 				<li id="time"><%= @time %></li>
+				<% if session[:counter] > 5 %>
+				<li id="count">Index was accessed <%= session[:counter] %> times.</li>
+				<% end %>
 			</ul>
 		</div>
 		<div id="main">
